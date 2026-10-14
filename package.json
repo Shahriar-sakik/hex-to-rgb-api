@@ -1,0 +1,19 @@
+{
+  "name": "hex-to-rgb-api",
+  "version": "1.0.0",
+  "description": "Hex to RGB library with an Express REST API, tested with Mocha, Chai and Supertest",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha \"test/**/*.test.js\""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0"
+  }
+}
